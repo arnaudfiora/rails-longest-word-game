@@ -1,0 +1,88 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Staatliches&display=swap');
+// font-family: 'Staatliches', cursive;
+// font-family: 'Open Sans', sans-serif;
+
+.banner {
+  height: 300px;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 48px;
+    color: white;
+    margin: 0 0 20px 0;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    color: white;
+  }
+}
+
+.container {
+  background-color: white;
+  height: 175px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .letters {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+  }
+
+  .letter {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    height: 60px;
+    width: 60px;
+  }
+
+  p {
+    background-color: black;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 30px;
+
+    border-radius: 5px;
+    box-shadow: 0 0 15px black;
+  }
+}
+
+.container.results{
+  p {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+  }
+}
+
+.question-box {
+  height: 50px;
+  width: 300px;
+  color: black;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+}
+
+.button-submit {
+  height: 100px;
+  padding: 20px 5px;
+  // visibility: hidden;
+}
